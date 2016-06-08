@@ -1,0 +1,55 @@
+body {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+.page {
+  text-align: left;
+  background-color: #222;
+}
+.page .quote {
+  background-color: rgba(0,0,0,0.5);
+  text-align: right;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 3.5vh;
+}
+.page .quote p {
+  font-size: 7.5vh;
+  font-family: 'Oswald', sans-serif;
+}
+.page .quote span {
+  font-size: 4.5vh;
+}
+.page footer {
+  font-size: 5.5vh;
+}
+.icon {
+  stroke: #fff;
+}
+p {
+  text-shadow: 2px 2px #000;
+  color: #fff;
+}
+img {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+#suicide {
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-image: url("https://i.ytimg.com/vi/5AwUdTIbA8I/maxresdefault.jpg");
+}
+.pagenav__button--top,
+.pagenav__button--left,
+.pagenav__button--bottom,
+.pagenav__button--right,
+.pagenav__button--cornertopright,
+.pagenav__button--cornerbottomleft {
+  display: none;
+}
