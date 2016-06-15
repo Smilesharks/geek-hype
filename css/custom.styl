@@ -29,7 +29,7 @@ body
 			display inline-block
 			margin: 0.67em 0;
 			.day
-				font-size 2.4em
+				font-size 3.4em
 				float left
 				font-weight bold
 				color #B2F0F0
@@ -41,21 +41,66 @@ body
 			.year
 				font-size 1.2em
 				color #222
-				letter-spacing 0.9em
+				letter-spacing 0.5em
 		.info
 			color #4a4a4a
+			font-size 0.8em
+			margin 15px 0
 		a
 			margin 15px 0px
 			color black
 		img
 			width 100%
 		#suicide-count
-			color #4444
-			font-size 11px
-			span
-				font-size 22px
+			.count
+				float left
+				margin 10px 10px
+				.numb
+					color #414B56
+					font-size 22px
+					border 1px solid #D8D8D8
+				.nombre
+					float left
+					color #4444
+					font-size 11px
+					text-align center
+				
 	footer
 		color red
+		.btn
+			width 100%
+			display: inline-block;
+			padding: 6px 12px;
+			margin-bottom: 0;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.42857143;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-ms-touch-action: manipulation;
+			touch-action: manipulation;
+			cursor: pointer;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			background-image: none;
+			border: 1px solid transparent;
+			border-radius: 4px;
+			padding: 10px 16px;
+			font-size: 18px;
+			line-height: 1.3333333;
+			color: #fff;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+			background: #ff3019; /* Old browsers */
+			background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+			text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4)
+		a
+			color #fff !important
 .icon
 	stroke #fff
 p
@@ -66,6 +111,7 @@ p
 	background-image url(https://i.ytimg.com/vi/5AwUdTIbA8I/maxresdefault.jpg)
 	height: 200px;
 	background-position: bottom;
+	background-size cover
 	width 40%
 	float left
 	display inline-block
@@ -75,9 +121,9 @@ p
 	padding 60px
 	display inline-block
 	width 60%
-	height: 200px;
-	float left
-	height 100%
+	// height: 200px;
+	// float left
+	// height 100%
 
 #suicide
 	background-position: top center;
